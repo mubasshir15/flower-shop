@@ -1,0 +1,33 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+.text-primary {
+    color: limegreen;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: limegreen;
+    border: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 25px 50px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
