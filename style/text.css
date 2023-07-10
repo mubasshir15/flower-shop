@@ -2,8 +2,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
+    margin: 0 300px;
 }
 
 .text-primary {
@@ -30,4 +31,11 @@ nav{
     color: black;
     font-size: 25px;
     font-weight: 600;
+}
+
+.banner {
+    background-color: #E554731A;
+    text-align: left;
+    margin: 0;
+
 }
