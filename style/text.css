@@ -27,18 +27,83 @@ body {
 
 .banner-section {
   text-align: left;
-   max-width: 730px;
+  max-width: 730px;
 }
 
 .banner {
-  padding: 150px 100px 0px 100px; 
+  padding: 150px 100px 0px 100px;
   background-color: salmon;
   display: flex;
   column-gap: 100px;
   justify-items: space-between;
-
 }
-.banner-img{
-   width: 450px;
+.banner-img {
+  width: 450px;
+}
+.featured-flower {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.featured-flower-title {
+  max-width: 580px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
 
+.featured-flower-photo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.featured-img-1 {
+  width: 350px;
+  border-radius: 46% 46% 0 0;
+  height: 430px;
+
+  padding: 50px 20px;
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.featured-img-2 {
+  border-radius: 46% 46% 0 0;
+
+  padding: 50px 20px;
+  width: 350px;
+  height: 430px;
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.featured-img-3 {
+  border-radius: 46% 46% 0 0;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 50px 20px;
+  width: 350px;
+  height: 430px;
+}
+.featured-img-parent-1 {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.featured-img-parent-2 {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.featured-img-parent-3 {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.featured-flower-color{
+  margin-top: 8px; font-size: 20px;
+   text-decoration: underline;
 }
