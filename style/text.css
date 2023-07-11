@@ -175,10 +175,19 @@ body {
   padding: 30px 0;
 }
 
-.Flower-shop{
+.Flower-shop {
   gap: 15px;
   margin-top: 20px;
 }
-.shop-title{
-  font-size: 40px
+.shop-title {
+  font-size: 40px;
+}
+.latest-deals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   text-align: center;
+   margin: 20px auto;
+  height: 300px; width: 1250px;
+  background-repeat: no-repeat;
 }
